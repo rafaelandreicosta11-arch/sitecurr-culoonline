@@ -51,7 +51,7 @@ Estrutura Visual
 
 Desafios do Desenvolvimento
 
-• A responsividade foi a parte mais trabalhosa, também o menu lateral, pois nunca havia feito um antes. Segui um modelo existente (fonte: bruno Rodrigues) e realizei adaptações.
+• A responsividade foi a parte mais trabalhos, também o menu lateral, pois nunca havia feito um antes. Segui um modelo existente (fonte: bruno Rodrigues) e realizei adaptações.
 
 • A criação de links internos foi simples.
 
