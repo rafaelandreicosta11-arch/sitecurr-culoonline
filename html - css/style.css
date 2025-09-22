@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*estilização do menu*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #fbe2b2;
+}
+nav.menu-lateral{
+    width: 65px;
+    height: 100%;
+    background-color: #000000;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #2f2f2f;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 10%;
+    padding: 10px;
+}
+.btn-expandir > i{
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background: #2f2f2f;
+} 
+
+ul li.item-menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 30px;
+}
+ul li.item-menu a .icon > i{
+   font-size: 30px; 
+}
+
+/*estilização dos direitos*/
+.site-footer.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.099); 
+  box-shadow: 0 -1px 4px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*estilização do menu*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #fbe2b2;
+}
+nav.seta{
+    width: 55px;
+    height: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.seta:hover{
+    width: 300px;
+}
+
+.expandir{
+    width: 10%;
+    padding: 10px;
+}
+.expandir > i{
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+hr {
+        border-top: 20px solid rgb(0, 0, 0); 
+        width: 100%; 
+        margin: 10px auto; 
+    }
+
+h1, p{
+    text-align: center;
+    
+}
+ul li.item-voltar{
+    transition: .2s;
+}
+
+ul li.item-voltar:hover{
+    background: #2f2f2f;
+} 
+
+ul li.item-voltar a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+ul li.item-voltar a .txt-link{
+    margin-left: 25px;
+}
+ul li.item-voltar a .icon > i{
+   font-size: 30px; 
+}
+
+/*estilização das faixas das seções*/
+hr {
+        border-top: 20px solid rgb(0, 0, 0); 
+        width: 50%; 
+        margin: 15px auto; 
+    }
+/* estilização dos contatos*/
+    .contato {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .contato p {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .contato a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      margin-left: 8px;
+      transition: 0.3s;
+    }
+
+    .contato a:hover {
+      color: #0a66c2; 
+    }
+
+    .contato i {
+      font-size: 20px;
+      color: #555;
+      margin-right: 6px;
+    }
+
+    /* Cores específicas */
+    .gmail i {
+      color: #d93025; 
+    }
+
+    .whatsapp i {
+      color: #25d366; 
+    }
