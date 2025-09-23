@@ -75,6 +75,6 @@ Como Executar
 
 Demonstração
  https://rafaelandreicosta11-arch.github.io/sitecurr-culoonline/
-Licença
 
+Licença
 Este projeto foi desenvolvido para fins acadêmicos e não possui fins comerciais
