@@ -80,4 +80,17 @@ ul li.item-menu a .icon > i{
   text-align: center;
 }
 
+/* Esconde pra pc*/
+.menu-lateral .btn-expandir,
+.bibilist {
+    display: none;
+}
 
+/* Quando a tela for até 1200px */
+@media (max-width: 1200px) {
+    .menu-lateral .btn-expandir,
+    .menu-lateral .icon {
+        display: block; 
+        cursor: pointer;
+    }
+}
