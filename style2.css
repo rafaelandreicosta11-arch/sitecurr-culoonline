@@ -13,7 +13,7 @@ body{
     background-color: #fbe2b2;
 }
 nav.seta{
-    width: 55px;
+    width: 45px;
     height: 20%;
     position: fixed;
     top: 0;
@@ -23,7 +23,7 @@ nav.seta{
 }
 
 nav.seta:hover{
-    width: 300px;
+    width: 150px;
 }
 
 .expandir{
@@ -70,7 +70,7 @@ ul li.item-voltar a .txt-link{
     margin-left: 25px;
 }
 ul li.item-voltar a .icon > i{
-   font-size: 30px; 
+   font-size: 20px; 
 }
 
 /*estilização das faixas das seções*/
