@@ -55,11 +55,11 @@ Desafios do Desenvolvimento
 
 • A criação de links internos foi simples.
 
-• Os maiores problemas surgiram nos links externos com "mailto", especificamente para Gmail. Resolvi utilizando o link completo de direcionamento, que funcionou corretamente.
+• A adição de link externo que leva ao contato do whatsapp também foi simples.
 
 • A adição de ícones via Bootstrap Icons foi tranquila.
 
-• A seta de retorno para o menu trouxe dificuldades no CSS e exigiu mais testes.
+• A seta de retorno para o menu trouxe dificuldades no CSS e exigiu mais testes, mas funcionou perfeitamente.
 
 Objetivo
 
