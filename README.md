@@ -29,7 +29,7 @@ Funcionalidades
 
 • Ícones adicionados com Bootstrap Icons.
 
-• Links externos na área de contato (gmail e WhatsApp).
+• Links externos na área de contato (WhatsApp).
 
 Tecnologias Utilizadas
 
