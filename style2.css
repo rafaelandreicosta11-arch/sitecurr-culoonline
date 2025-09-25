@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'outfit', sans-serif;
+    font-family: sans-serif;
 }
 body{
     height: 100vh;
@@ -76,25 +76,25 @@ ul li.item-voltar a .icon > i{
 /*estilização das faixas das seções*/
 hr {
         border-top: 20px solid rgb(0, 0, 0); 
-        width: 50%; 
-        margin: 15px auto; 
+        width: 100%; 
+        margin: 35px auto; 
     }
 /* estilização dos contatos*/
     .contato {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 3px;
     }
 
     .contato p {
-      margin: 10px 0;
-      font-size: 18px;
+      margin: 0 auto 1em;
+      font-size: 16px;
     }
 
     .contato a {
       text-decoration: none;
       color: #333;
       font-weight: bold;
-      margin-left: 8px;
+      margin-left: 3px;
       transition: 0.3s;
     }
 
@@ -103,16 +103,49 @@ hr {
     }
 
     .contato i {
-      font-size: 20px;
+      font-size: 16px;
       color: #555;
-      margin-right: 6px;
-    }
-
-    /* Cores específicas */
-    .gmail i {
-      color: #d93025; 
+      margin-right: 3px;
     }
 
     .whatsapp i {
       color: #25d366; 
     }
+p {
+  font-size: 16px;        
+  line-height: 1.6;       
+  color: #222;            
+  max-width: 70ch;        
+  margin: 0 auto 1em;     
+  text-align: left;       
+  padding: 0 1rem;        
+}
+ /* responsividade do texto */
+@media (max-width: 600px) {
+  p {
+    font-size: 14px;      
+    max-width: 100%;      
+  }
+  .contato p, .contato a, .contato i {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .contato i {
+    font-size: 16px;
+    max-width: 100%;
+  }
+ 
+}
+
+
+@media (min-width: 1200px) {
+  p {
+    font-size: 18px;      
+  }
+  .contato p, .contato a, .contato i {
+    font-size: 18px;
+  }
+  .contato i {
+    font-size: 18px;
+  }
+}
