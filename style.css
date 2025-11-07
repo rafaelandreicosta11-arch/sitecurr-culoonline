@@ -2,47 +2,15 @@
 
 
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'outfit', sans-serif;
 }
-
-body {
+body{
+    height: 100vh;
     background-color: #fbe2b2;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main {
-    background-color: #000;
-    width: 100%;
-    max-width: 1600px;     
-    border-radius: 12px;
-    overflow: hidden;      
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
-picture,
-img {
-    width: 100%;
-    display: block;
-}
-
-img {
-    object-fit: cover; 
-    height: auto;
-}
-
-
-@media (max-width: 768px) {
-    main {
-        border-radius: 0;
-        box-shadow: none;
-    }
 }
 nav.menu-lateral{
     width: 65px;
