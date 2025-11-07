@@ -73,13 +73,12 @@ ul li.item-voltar a .icon > i{
    font-size: 20px; 
 }
 
-/*estilização das faixas das seções*/
 hr {
         border-top: 20px solid rgb(0, 0, 0); 
         width: 100%; 
         margin: 35px auto; 
     }
-/* estilização dos contatos*/
+
     .contato {
       font-family: Arial, sans-serif;
       margin: 3px;
@@ -120,7 +119,7 @@ p {
   text-align: left;       
   padding: 0 1rem;        
 }
- /* responsividade do texto */
+
 @media (max-width: 600px) {
   p {
     font-size: 14px;      

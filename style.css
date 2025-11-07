@@ -1,16 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/*estilização do menu*/
 
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
-body{
-    height: 100vh;
+
+body {
     background-color: #fbe2b2;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #000;
+    width: 100%;
+    max-width: 1600px;     
+    border-radius: 12px;
+    overflow: hidden;      
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+picture,
+img {
+    width: 100%;
+    display: block;
+}
+
+img {
+    object-fit: cover; 
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        border-radius: 0;
+        box-shadow: none;
+    }
 }
 nav.menu-lateral{
     width: 65px;
@@ -68,7 +100,6 @@ ul li.item-menu a .icon > i{
    font-size: 30px; 
 }
 
-/*estilização dos direitos*/
 .site-footer.fixed {
   position: fixed;
   left: 0;
@@ -80,13 +111,13 @@ ul li.item-menu a .icon > i{
   text-align: center;
 }
 
-/* Esconde pra pc*/
+
 .menu-lateral .btn-expandir,
 .bibilist {
     display: none;
 }
 
-/* Quando a tela for até 1200px */
+
 @media (max-width: 1200px) {
     .menu-lateral .btn-expandir,
     .menu-lateral .icon {
