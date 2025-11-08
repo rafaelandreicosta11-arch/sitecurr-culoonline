@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/*estilização do menu*/
 
 *{
     margin: 0;
@@ -28,7 +27,7 @@ body {
 
 body{
     height: 100vh;
-    
+    background-color: #ffffff;
 }
 nav.seta{
     width: 45px;
