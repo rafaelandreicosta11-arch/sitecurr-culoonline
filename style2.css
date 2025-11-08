@@ -8,6 +8,24 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ff4242, #a03aff, #ff6b01);
+    background-size: 300% 300%;
+    animation: gradientMove 10s ease infinite;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
 body{
     height: 100vh;
     background-color: #fbe2b2;
